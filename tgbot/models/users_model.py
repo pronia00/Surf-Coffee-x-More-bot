@@ -6,4 +6,3 @@ class Admin(Enum):
     ADMIN = 927266710
 
 
-
