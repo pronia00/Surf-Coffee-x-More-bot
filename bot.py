@@ -21,11 +21,11 @@ from telebot import TeleBot
 # config
 from tgbot import config
 
-db = Database()
+#db = Database()
 
 # remove this if you won't use middlewares:
-from telebot import apihelper
-apihelper.ENABLE_MIDDLEWARE = True
+# from telebot import apihelper
+# apihelper.ENABLE_MIDDLEWARE = True
 
 # I recommend increasing num_threads
 bot = TeleBot(config.TOKEN, num_threads=5)
@@ -37,8 +37,8 @@ def register_handlers():
 
 register_handlers()
 
-# Middlewares
-bot.register_middleware_handler(antispam_func, update_types=['message'])
+# # Middlewares
+# bot.register_middleware_handler(antispam_func, update_types=['message'])
 
 
 # custom filters
