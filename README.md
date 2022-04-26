@@ -1,6 +1,11 @@
-# telebot_template
- Template for synchronous implementation of telebot
 
- You are welcome to make pull requests or open issues to improve template.
 
- Note that this template requires pyTelegramBotAPI 4.4.0. You can install it from github because it is not released yet.
+Hey there, i'm Andrew Pronkin, programmer x barista :3 
+
+This project is my little attempt to dive into Python & Telegam API + Google Sheets API to optimize some of backend processes in Surf Coffee x More spot in Sevastopol
+
+Hope it's not another project i'll never end...)
+
+= ^__ __ ^ =
+   
+
